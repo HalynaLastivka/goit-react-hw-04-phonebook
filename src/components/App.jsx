@@ -33,13 +33,13 @@ export const App = () => {
       return;
     }
 
-    const newOne = {
+    const newOneContact = {
       id: nanoid(),
       name,
       number,
     };
 
-    setContacts([...contacts, newOne]);
+    setContacts([...contacts, newOneContact]);
   };
 
   const handleDelete = contactId => {
