@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 export const Filter = ({ filter, onChange }) => {
   return (
     <label>

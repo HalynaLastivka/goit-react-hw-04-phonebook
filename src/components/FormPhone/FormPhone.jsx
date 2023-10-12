@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import css from './FormPhone.module.css';
 
 export const FormPhone = ({ handleContact }) => {
